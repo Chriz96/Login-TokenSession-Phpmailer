@@ -1,10 +1,10 @@
 <h1><img src="https://images.emojiterra.com/google/noto-emoji/unicode-13.1/128px/1f1ea-1f1f8.png" alt="Spain flag" width="40" height="40" /> [PHP] CRUD - Login - Restaurar Password</h1>
-<h3> Proyecto que solo permite crear cuenta, activar cuenta, restaurar contraseña mediante el uso de tokens y envio de correos con el uso de phpmailer. Las tablas y gráficos que aparecen son solo ejemplos. </h3>
+<h3> Proyecto que solo permite crear cuenta, activar cuenta, restaurar contraseña mediante el uso de tokens y envio de correos con el uso de phpmailer. Las tablas y gráficos que aparecen son solo ejemplos, en el apartado addons -> tables en el menú de la izquierda se muestra una tabla con los usuarios creados. </h3>
 
 <h2> Pre-requisitos 📋 </h2>
 <ul>
   <li>
-Importar la base de datos adjunta llamada "login.sql" phpmyadmin. Usada para guardar y verificar los usuarios creados, las contraseñas estan encriptadas bajo password_hash
+Importar la base de datos adjunta llamada "login.sql" (Se encuentra en el directorio DataBase). Usada para guardar y verificar los usuarios creados, las contraseñas estan encriptadas bajo password_hash .
   </li>
   <li>
 Para crear una cuenta se debe editar parte del archivo funcs.php ubicado en ../funcs/:
@@ -44,5 +44,8 @@ Para crear una cuenta se debe editar parte del archivo funcs.php ubicado en ../f
  * **PHP** version 7.3.27.
  * **PHPMailer** version 6.3.0.
  * **Bootstrap** version v4.5.3.
- * **Xampp** version 7.3.27
-  
+ * **Xampp** version 7.3.27.
+ 
+ <h2> Contribuyendo 🖇️ </h2>
+
+* A todo aquel que descargue el proyecto y lo utilice como por ejemplo para ver alguna funcionalidad, si encuentra algun problema o sugerencia sea libre de comentarla.
