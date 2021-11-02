@@ -48,4 +48,9 @@ Para crear una cuenta se debe editar parte del archivo funcs.php ubicado en ../f
  
  <h2> Contribuyendo 🖇️ </h2>
 
-* A todo aquel que descargue el proyecto y lo utilice como por ejemplo para ver alguna funcionalidad, si encuentra algun problema o sugerencia sea libre de comentarla.
+Se agradece de antemano que si encuentran algun detalle puedan contribuir con el proyecto para ello deben hacer lo siguiente:
+* Hacer un Fork del repositorio (<a href="https://github.com/Chriz96/Login-TokenSession-Phpmailer"> https://github.com/Chriz96/Login-TokenSession-Phpmailer </a>).
+* Crear una rama. (<code>$ git checkout -b feature/nombre-rama </code>)
+* Realizar un commit con los cambios. (<code>$ git commit -am '  ' </code>)
+* Luego realizar un push al repositorio con la rama creada. (<code>$ git push origin feature/nombre-rama </code>)
+* Por último realizar un Pull Request.
